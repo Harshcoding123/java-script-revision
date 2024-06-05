@@ -1,0 +1,105 @@
+//MAIN revision of java script
+
+// a=[1,23,4,"harsh",400,"happy coding"];
+// console.log(a);
+// for(let i=0;i<a.length;i++){ //1
+//     //work
+
+
+// }
+// i=0;
+// while(i<a.length){  //2
+//     //work
+
+
+//     i++;
+// } 
+// a.forEach((e)=>{      //3  //s representing elements of array  
+//     console.log(e);
+// })
+
+// a.map((e)=>{         //4  //return new array
+//     //work
+// })
+
+// a.filter((e)=>{      //5  //for conditions 
+//     return e%2==0;
+
+// })
+
+// a.reduce((p,c)=>{      //6    //returns single value
+//     return p+c;
+
+// })
+// for(let i in a){
+//     console.log(a[i]);
+// }
+
+
+//  let student= {
+//     class:"A",
+//     rollNO:23,
+//     grade:"b+",
+// }
+// console.log(student.class)
+// for(let key in student){       //loop in object and  array as well
+//     console.log(student[key])
+// }
+// class school{
+//     constructor(name){
+//         this.name =name;
+
+//     }
+//     fees(){
+//         console.log("getting fees")
+//     }
+
+// }
+// let ob1 =new school("jack");
+// ob1.fees();
+// let div2 =document.querySelector(".c");
+// let div= document.querySelector("#head");
+// let child= div.children; //array;
+
+// // for(i in child){
+// //     console.log(child[i].innerText);
+// // }
+// let childclass= div2.children;
+// for(i in childclass){
+//     console.log(childclass[i].innerText);
+// }
+// let promise =new Promise((resolve,reject)=>{
+//     console.log("happy coding");
+//     resolve("123");
+//     // reject("error found");
+// });
+// let pro  =new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         console.log("hello");
+//     },2000);
+//     resolve("success");
+// })
+
+
+// pro.then((e)=>{
+//     console.log("promise fulfilled");
+//     console.log(e);
+// })
+
+
+//  async function func(){
+//     await setTimeout(()=>{
+//         console.log("time");
+//     },2000);
+//     console.log("completed");
+// }
+//  async function takingData(){
+    
+// let url ="link...";
+// let response = await fetch(url);
+// let usableData = await response.json(); 
+// return usableData;
+// }
+// console.log(takingData());
+
+
